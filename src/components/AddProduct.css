@@ -1,0 +1,11 @@
+.addproduct-page { display:flex; align-items:center; justify-content:center; padding:40px 16px; }
+.addproduct-card { max-width:700px; width:100%; background:#fff; padding:20px; border-radius:8px; box-shadow:0 6px 20px rgba(0,0,0,0.06); }
+.addproduct-card h2 { margin-bottom:8px; }
+.addproduct-form label { display:block; margin-bottom:10px; }
+.addproduct-form input { width:100%; padding:8px 10px; border:1px solid #ddd; border-radius:6px; margin-top:6px; }
+.addproduct-form .actions { margin-top:12px; }
+.success { color: green; margin-bottom:10px; }
+
+@media (max-width: 600px) {
+  .addproduct-card { padding:16px; }
+}

@@ -1,0 +1,39 @@
+.splash-page {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 16px;
+  background: linear-gradient(120deg, #f8fafc 0%, #eef2ff 100%);
+}
+.splash-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  padding: 28px 36px;
+  border-radius: 12px;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.08);
+}
+.splash-logo {
+  width: 70px;
+  margin-bottom: 12px;
+}
+.splash-title {
+  margin: 6px 0 12px;
+  font-size: 1.25rem;
+  color: #374151;
+}
+.splash-loader {
+  margin-top: 6px;
+  width: 40px;
+  height: 6px;
+  background: linear-gradient(90deg, #6366f1 0%, #4f46e5 100%);
+  border-radius: 12px;
+  animation: splashPulse 900ms infinite ease-in-out;
+}
+@keyframes splashPulse {
+  0% { transform: scaleX(0.6); opacity: .6; }
+  50% { transform: scaleX(1); opacity: 1; }
+  100% { transform: scaleX(0.6); opacity: .6; }
+}

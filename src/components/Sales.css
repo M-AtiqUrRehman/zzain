@@ -1,0 +1,10 @@
+.sales-page { padding: 40px 0; }
+.sales-card { background: #fff; padding: 16px; border-radius: 8px; box-shadow: var(--shadow); }
+.sales-card .lead { color: var(--grey); margin-bottom: 12px; }
+.sales-list { display:flex; flex-direction:column; gap: 12px; }
+.sale-item { display:flex; align-items:center; justify-content:space-between; padding: 12px; }
+.sale-item .card-body { padding:0; }
+
+@media (max-width: 768px) {
+  .sale-item { flex-direction:column; align-items:flex-start; }
+}
