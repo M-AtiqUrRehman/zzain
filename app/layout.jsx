@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="zn-global-css-test-body">
+      <body>
         <AppShell>{children}</AppShell>
       </body>
     </html>
